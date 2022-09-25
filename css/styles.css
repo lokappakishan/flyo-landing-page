@@ -1,0 +1,463 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-weight: 400;
+  font-size: 1.125rem;
+  background: hsl(218, 28%, 13%);
+  color: lightgray;
+  font-family: 'Open Sans', sans-serif;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+/*
+--------    Typography  --------
+*/
+
+h2 {
+  font-size: 1.325rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+  color: white;
+  font-size: 1.125rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+.intro,
+.services {
+  text-align: center;
+}
+
+.intro-body,
+.service-body,
+.stay-productive-body,
+.stay-productive-read-more,
+.comment-body,
+.comments-name h3,
+.comments-name p {
+  font-size: 0.7em;
+  font-weight: 400;
+}
+/*
+--------    Layout  --------
+*/
+
+.container-flex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2em;
+  padding: 0 1em;
+}
+
+.logo {
+  width: 30%;
+  height: 30px;
+}
+
+.btn {
+  border: none;
+  background: linear-gradient(90deg, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+  color: whitesmoke;
+}
+
+/*
+--------    navigation  --------
+*/
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  margin: 0;
+}
+
+nav li {
+  margin: 0 0.5em;
+}
+
+nav a {
+  color: lightgray;
+  text-decoration: none;
+  font-size: 0.875rem;
+  cursor: pointer;
+}
+
+/* nav a:hover {
+} */
+
+/*
+--------    intro  --------
+*/
+
+.intro {
+  padding: 3em 2em;
+  margin-bottom: 4em;
+}
+
+.intro-image {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.intro-tagline {
+  line-height: 1.5;
+}
+
+.intro-body {
+  padding: 0 1.5em;
+  margin-bottom: 2em;
+}
+
+.btn-intro {
+  padding: 1em 5.5em;
+  border-radius: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/*
+--------    services  --------
+*/
+
+.services {
+  text-align: center;
+  padding: 0 2em;
+}
+
+.service {
+  margin-bottom: 5em;
+}
+
+.service-image {
+  width: 17%;
+  margin: 0 auto;
+}
+
+/*
+--------    Stay productive  --------
+*/
+
+.stay-productive {
+  padding: 3em 2em;
+  margin-bottom: 1em;
+}
+
+.stay-productive-read-more {
+  color: hsl(176, 68%, 64%);
+}
+
+.stay-productive-read-more:hover,
+.stay-productive-read-more:focus {
+  cursor: pointer;
+}
+
+/*
+--------    comments-section  --------
+*/
+
+.comments-section {
+  padding: 3em 2em 0em 2em;
+}
+
+.comment {
+  padding: 1em 1em;
+  background: hsl(217, 28%, 15%);
+  margin-bottom: 2em;
+}
+
+.comments-section div.comment:last-child {
+  margin-bottom: 0;
+}
+.comment-body {
+  margin: 0;
+}
+
+.comment-sentby {
+  margin-top: 1em;
+  display: flex;
+}
+
+.comments-name {
+  padding: 0 0.5em;
+}
+.comments-name h3 {
+  font-weight: 700;
+  margin: 0;
+}
+
+.comments-name p {
+  margin-top: 0.5em;
+}
+
+.comments-sentby-image {
+  border-radius: 50%;
+  width: 15%;
+  height: 15%;
+}
+
+.comments-section-quotes {
+  width: 10%;
+}
+
+/*
+  get-access
+*/
+
+.get-access {
+  width: 70%;
+  margin: 0 auto;
+  padding: 3em 2em;
+  text-align: center;
+  background: hsl(217, 28%, 15%);
+  position: relative;
+  top: 12em;
+}
+
+.get-access p {
+  font-size: 0.8rem;
+}
+
+.get-access input {
+  width: 100%;
+  border: none;
+  padding: 1.5em 0em;
+  border-radius: 30px;
+  font-weight: 700;
+}
+
+.get-access button {
+  width: 100%;
+  font-size: 0.9rem;
+  font-weight: bold;
+  padding: 1.5em 0em;
+  border-radius: 30px;
+}
+
+.get-access-email {
+  margin-bottom: 2em;
+}
+
+/*
+  footer
+*/
+
+footer {
+  background: hsl(216, 53%, 9%);
+}
+
+.footer-col1 {
+  padding-top: 15em;
+}
+
+.footer-icon {
+  width: 50%;
+  padding: 3em 2em;
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-company-location,
+.footer-company-contact-phone,
+.footer-company-contact-email {
+  padding: 0em 2em;
+}
+
+.footer-company-location-icon {
+  width: 5%;
+  height: 20px;
+  margin-top: 6px;
+}
+
+.footer-company-location-body,
+.footer-company-contact-phone-body,
+.footer-company-contact-email-body {
+  margin-top: 0;
+  width: 85%;
+}
+
+.footer-company-contact-phone-icon,
+.footer-company-contact-email-icon {
+  width: 10%;
+  height: 16px;
+  margin-top: 6px;
+  margin-right: 10px;
+}
+
+.footer-page-links {
+  padding: 1em 2em;
+}
+
+.footer-socialmedia {
+  display: flex;
+}
+
+.footer-socialmedia-icon {
+  background: white;
+  border-radius: 49%;
+}
+
+@media (min-width: 675px) {
+  /*
+  
+  typography
+
+  */
+
+  .intro {
+    font-size: 1.725rem;
+  }
+
+  .service-body {
+    font-size: 0.925rem;
+    font-weight: 400;
+  }
+
+  /*
+  
+  layout
+
+  */
+
+  .container-big-screen {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .logo {
+    width: 10%;
+    height: 35px;
+  }
+
+  .intro {
+    width: 50%;
+    font-size: 1.725rem;
+    font-weight: 400;
+    margin-bottom: 3em;
+  }
+
+  .intro-body {
+    padding: 0 4em;
+  }
+
+  .intro-tagline {
+    font-size: 2.5rem;
+    color: white;
+  }
+
+  .container-flex {
+    padding: 0 2em;
+  }
+
+  .services {
+    display: grid;
+    grid-template: auto auto / auto auto;
+  }
+
+  .service {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .service img {
+    height: 75px;
+    margin-bottom: 1em;
+  }
+
+  .service-title,
+  .service-body {
+    margin: 0 0.25em 0.5em 0.25em;
+    padding: 0 2em;
+  }
+
+  .stay-productive {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .stay-productive-image {
+    height: 500px;
+    width: 58%;
+  }
+
+  .stay-productive-title {
+    font-size: 2.5rem;
+  }
+
+  .stay-productive-main-body {
+    font-size: 1.5rem;
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .comments-section {
+    display: flex;
+  }
+
+  .comment {
+    width: 250px;
+    margin-right: auto;
+  }
+
+  .comments-section-quotes {
+    width: 3%;
+    height: 30px;
+  }
+
+  .comments-section div.comment:last-child {
+    margin-bottom: 2em;
+  }
+
+  /*
+   footer 
+  */
+
+  footer {
+    display: flex;
+    margin: 0;
+    font-size: 1rem;
+    justify-content: space-between;
+    margin-top: 4em;
+  }
+
+  .footer-col1 {
+    width: 40%;
+    margin-top: 2em;
+    padding-top: 7em;
+  }
+
+  .footer-icon {
+    width: 35%;
+  }
+
+  .footer-company-location-icon {
+    width: 3%;
+  }
+
+  .footer-company-contact {
+    padding: 2em 2em;
+    padding-top: 10em;
+    margin-top: 2em;
+  }
+
+  .footer-company-contact,
+  .footer-col1,
+  .footer-company-contact,
+  .footer-page-links {
+    margin: 6em 0;
+  }
+
+  .footer-page-links {
+    padding-top: 8.6em;
+  }
+}
